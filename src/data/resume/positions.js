@@ -1,9 +1,9 @@
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Co-founder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
+    company: 'Bosman Watermanagement Group',
+    position: 'Project Engineer',
+    link: 'https://www.bosman-water.nl/en/',
+    daterange: 'March 2019 - April 2021',
     points: [
       'Deployed quantitative strategies to predict the value of fine art in various pricing contexts.',
       'Built production, on-line, end-to-end optimized machine learning pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster, Postgres, etc. on GCP with Kubernetes.',
