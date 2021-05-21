@@ -12,14 +12,14 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
-import Projects from '../pages/Projects';
+// import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
-import Stats from '../pages/Stats';
+// import Stats from '../pages/Stats';
 
 const pages = [
   {
     route: '/',
-    heading: 'About this site',
+    heading: 'Welcome to my site',
     component: Index,
   },
   {
@@ -27,6 +27,7 @@ const pages = [
     heading: 'About Me',
     component: About,
   },
+  /*
   {
     route: '/projects',
     heading: 'Projects',
@@ -37,6 +38,7 @@ const pages = [
     heading: 'Stats',
     component: Stats,
   },
+  */
   {
     route: '/contact',
     heading: 'Contact',
