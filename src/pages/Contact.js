@@ -2,13 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-import EmailLink from '../components/Contact/EmailLink';
+// import EmailLink from '../components/Contact/EmailLink';
 import ContactIcons from '../components/Contact/ContactIcons';
+
+// TODO: re-insert this email link below and uncomment the import above.
+// First come up with my own idea for something funny with the email address.
+// <EmailLink />
 
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Michael D'Angelo via email @ michael.l.dangelo@gmail.com"
+    description="Contact Joseph Rewald via email @ joseph.rewald@gmail.com"
   >
     <article className="post" id="contact">
       <header>
@@ -18,7 +22,7 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Feel free to get in touch. You can email me at: </p>
-        <EmailLink />
+        <p><a href="mailto:joseph.rewald@gmail.com">joseph.rewald@gmail.com</a></p>
       </div>
       <ContactIcons />
     </article>
