@@ -34,15 +34,16 @@
 // Palette.
 	$palette: (
 		bg:							#36454f, // Main parts of background
-		bg-alt:						#aaaaaa, // Edges of site
-		fg:							#ffffff, // Normal text
-		fg-bold:					#ffffff, // Titles
-		fg-light:					#000000, // ????
+		bg-alt:						#2a3439, // Edges of site
+		fg:							#bebebe, // Normal text
+		fg-bold:					#c0c0c0, // Titles
+		fg-light:					#bebebe, // Little icons in sidebar for some reason
 		border:						rgba(0,128,128,1), // Most borders. Last number is line weight. 
 		border-bg:					rgba(256,000,000,0.075),
 		border-alt:					rgba(160,160,160,0.65),
 		accent:						#000000
 	);
+// Original colour scheme
 /*
 	$palette: (
 		bg:							#ffffff,
