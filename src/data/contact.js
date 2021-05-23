@@ -41,7 +41,7 @@ const data = [
   },
   */
   {
-    link: 'https://twitter.com/dangelosaurus',
+    link: 'https://twitter.com/josephrewald',
     label: 'Twitter',
     icon: faTwitter,
   },
