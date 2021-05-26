@@ -15,6 +15,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 // const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 // const Stats = lazy(() => import('./pages/Stats'));
+const Services = lazy(() => import('./pages/Services'));
 
 // TODO: add these back in down the bottom or replace them with
 // portfolio, services, etc.
@@ -29,6 +30,7 @@ const App = () => (
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
+        <Route path="/services" component={Services} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>
