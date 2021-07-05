@@ -16,7 +16,7 @@ const positions = [
     daterange: 'January 2017 - August 2018',
     points: [
       'Turn-Key Solutions for the storage and blending of chemicals for the polyurethane industry',
-      'International project management of projects valued up to 1,000,000',
+      'International project management of projects valued up to 1,000,000 EUR',
       'Execution of projects in countries including USA, Denmark, Bangladesh and Belgium',
       'Mechanical design and supervision of mechanical and controls engineers',
       'Procurement, construction supervision, commissioning, quality control',
