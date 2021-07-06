@@ -1,7 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import OfficeSkill from './Office/OfficeSkill';
+// import OfficeSkill from './Office/OfficeSkill';
+
+const OfficeSkill = ({ data }) => (
+  <article className="office-skill-container">
+    <header>
+      <h4 className="office-skill">{data.degree}</h4>
+      <p className="school"><a href={data.link}>{data.school}</a>, {data.year}</p>
+    </header>
+  </article>
+);
+
+OfficeSkill.propTypes = {
+  data: PropTypes.shape({
+    degree: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    school: PropTypes.string.isRequired,
+    year: PropTypes.number.isRequired,
+  }).isRequired,
+};
 
 const Office = ({ data }) => (
   <div className="office">
@@ -12,7 +30,7 @@ const Office = ({ data }) => (
     {data.map((officeSkill) => (
       <OfficeSkill
         data={officeSkill}
-        key={officeSkill.school}
+        // key={officeSkill.school}
       />
     ))}
   </div>

@@ -23,6 +23,10 @@ const routes = [
   },
   */
   {
+    label: 'Services',
+    path: '/services',
+  },
+  {
     label: 'Contact',
     path: '/contact',
   },

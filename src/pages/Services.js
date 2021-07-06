@@ -28,6 +28,7 @@ const Services = () => (
 
         </div>
       </header>
+      <Office data={officeSkills} />
       <iframe
         title="spreadsheet_shenanigans"
         width="802"
@@ -36,8 +37,6 @@ const Services = () => (
         scrolling="no"
         src="https://onedrive.live.com/embed?resid=EAF0AAEFF49E769D%211981&authkey=%21ACIdZAQ0SE0oswo&em=2&wdAllowInteractivity=False&AllowTyping=True&ActiveCell='Tabelle1'!A1&wdInConfigurator=True"
       />
-
-      <Office data={officeSkills} />
 
     </article>
   </Main>
