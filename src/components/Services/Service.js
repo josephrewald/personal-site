@@ -3,21 +3,21 @@ import PropTypes from 'prop-types';
 
 // import OfficeSkill from './Office/OfficeSkill';
 
-const OfficeSkill = ({ data }) => (
-  <article className="office-skill-container">
+const Service = ({ data }) => (
+  <article className="service-container">
     <header>
-      <h4 className="office-skill">{data.degree}</h4>
-      <p className="school"><a href={data.link}>{data.school}</a>, {data.year}</p>
+      <h4 className="serviceName"><a href={data.link}>{data.serviceName}</a></h4>
+      <p className="serviceDescription">{data.serviceDescription}</p>
     </header>
   </article>
 );
 
-OfficeSkill.propTypes = {
+Service.propTypes = {
   data: PropTypes.shape({
-    degree: PropTypes.string.isRequired,
+    serviceName: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-    school: PropTypes.string.isRequired,
-    year: PropTypes.number.isRequired,
+    serviceDescription: PropTypes.string.isRequired,
+    // year: PropTypes.number.isRequired,
   }).isRequired,
 };
 
@@ -28,9 +28,9 @@ const Office = ({ data }) => (
       <h3>Microsoft Office and VBA</h3>
     </div>
     {data.map((officeSkill) => (
-      <OfficeSkill
+      <Service
         data={officeSkill}
-        // key={officeSkill.school}
+        // key={officeSkill.serviceDescription}
       />
     ))}
   </div>
@@ -38,8 +38,8 @@ const Office = ({ data }) => (
 
 Office.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
-    school: PropTypes.string,
-    degree: PropTypes.string,
+    serviceDescription: PropTypes.string,
+    serviceName: PropTypes.string,
     link: PropTypes.string,
     year: PropTypes.number,
   })),
@@ -49,4 +49,5 @@ Office.defaultProps = {
   data: [],
 };
 
-export default Office;
+// export default Office;
+export default Service;

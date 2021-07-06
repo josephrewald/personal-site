@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-import Office from '../components/Services/Office';
+import Service from '../components/Services/Service';
 
-import officeSkills from '../data/services/officeSkills';
+import services from '../data/services';
 
 const sections = [
   'MS Office and VBA',
@@ -28,7 +28,7 @@ const Services = () => (
 
         </div>
       </header>
-      <Office data={officeSkills} />
+      <Service data={services} />
       <iframe
         title="spreadsheet_shenanigans"
         width="802"
