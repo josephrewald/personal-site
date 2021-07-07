@@ -1,12 +1,12 @@
 const services = [
   {
-    serviceName: 'Excel and VBA',
+    serviceName: 'Excel',
     serviceDescription: 'in excel and stuff',
     link: 'https://www.unsw.edu.au/',
     // year: 2011,
   },
   {
-    serviceName: 'Autodesk Inventor',
+    serviceName: 'Inventor',
     serviceDescription: 'in excel and stuff',
     link: 'https://www.unsw.edu.au/',
     // year: 2011,

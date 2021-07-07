@@ -7,7 +7,8 @@ import Service from '../components/Services/Service';
 import services from '../data/services';
 
 const sections = [
-  'MS Office and VBA',
+  'Excel',
+  'Inventor',
 ];
 
 const Services = () => (
@@ -25,18 +26,9 @@ const Services = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>))}
           </div>
-
         </div>
       </header>
       <Service data={services} />
-      <iframe
-        title="spreadsheet_shenanigans"
-        width="802"
-        height="346"
-        frameBorder="0"
-        scrolling="no"
-        src="https://onedrive.live.com/embed?resid=EAF0AAEFF49E769D%211981&authkey=%21ACIdZAQ0SE0oswo&em=2&wdAllowInteractivity=False&AllowTyping=True&ActiveCell='Tabelle1'!A1&wdInConfigurator=True"
-      />
 
     </article>
   </Main>
