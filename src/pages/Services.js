@@ -11,6 +11,8 @@ const sections = [
   'Inventor',
 ];
 
+// const data = { services };
+
 const Services = () => (
   <Main
     title="Services"
@@ -28,7 +30,10 @@ const Services = () => (
           </div>
         </div>
       </header>
-      <Service data={services} />
+
+      {services.map((service) => (
+        <Service service={service} />
+      ))}
 
     </article>
   </Main>

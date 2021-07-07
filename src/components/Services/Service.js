@@ -1,23 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// import OfficeSkill from './Office/OfficeSkill';
-
 // TODO: move the data.map loop thing into Services.js
 // have this class be like one section on the page.
-const Service = ({ data }) => (
-  <article className="service-container">
-    {data.map((service) => (
-      <article>
-        <h3 className="serviceName"><a href={service.link}>{service.serviceName}</a></h3>
-        <p className="serviceDescription">{service.serviceDescription}</p>
-      </article>
-    ))}
+const Service = ({ service }) => (
+  <article>
+    <h3 className="serviceName"><a href={service.link}>{service.serviceName}</a></h3>
+    <p className="serviceDescription">{service.serviceDescription}</p>
   </article>
 );
 
 Service.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
+  service: PropTypes.arrayOf(PropTypes.shape({
     serviceName: PropTypes.string,
     link: PropTypes.string.isRequired,
     serviceDescription: PropTypes.string.isRequired,
@@ -25,7 +19,7 @@ Service.propTypes = {
 };
 
 Service.defaultProps = {
-  data: [],
+  service: [],
 };
 
 export default Service;
