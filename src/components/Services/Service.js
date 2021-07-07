@@ -5,15 +5,13 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const Service = ({ service }) => (
   <div>
-    <div>
-      <h3 className="serviceName"><a href={service.link}>{service.serviceName}</a></h3>
-    </div>
-    <div className="split left">
+    <div className="split-left">
       <div className="centered">
+        <h3 className="serviceName"><a href={service.link}>{service.serviceName}</a></h3>
         <p className="serviceDescription">{service.serviceDescription}</p>
       </div>
     </div>
-    <div className="split right">
+    <div className="split-right">
       <div className="centered">
         <img src={`${PUBLIC_URL}/images/${service.serviceName}.png`} alt={service.serviceName} />
       </div>
