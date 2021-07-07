@@ -1,3 +1,12 @@
+// const imagesPath = '../../..public/images/services'
+
+// imagePath: 'inventor.png',
+// img: new Image(),
+// img.src = self.imagePath,
+
+// const img = new Image();
+// img.src = 'inventor.png';
+
 const services = [
   {
     serviceName: 'Excel',
