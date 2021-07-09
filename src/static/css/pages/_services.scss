@@ -20,24 +20,26 @@
  
 	 .split-left {
 	   height: 100%;
-	   width: 30%;
+	   width: 40%;
 	   position: relative;
 	   z-index: 1;
 	   top: 0;
 	   overflow-x: auto;
 	   padding-top: 20px;
 	   left: 0;
-	   float: left
+	   float: left;
+	   text-align: justify;
 	 }
 
 	 .split-right {
 	   height: 100%;
-	   width: 70%;
+	   width: 60%;
 	   position: relative;
 	   z-index: 1;
 	   top: 0;
 	   overflow-x: auto;
 	   padding-top: 20px;
+	   padding-left: 40px;
 	   left: 0;
 	 }
 
@@ -56,6 +58,10 @@
 	  height: 100%;
 	  min-height: fit-content;
 	  //border-radius: 50%;
+	}
+
+	.centred p{
+		text-align: justify;
 	}
 
 	.serviceName {

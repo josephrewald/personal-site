@@ -7,8 +7,11 @@ import Service from '../components/Services/Service';
 import services from '../data/services';
 
 const sections = [
-  'Excel',
-  'Inventor',
+  'Design',
+  'CAD',
+  'Project Management',
+  'Automation',
+  'Quality Control',
 ];
 
 const Services = () => (
