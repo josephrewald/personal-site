@@ -9,7 +9,8 @@ const Service = ({ service }) => (
     <div className="split-left">
       <div className="centered">
         {/* TODO: make these links work somehow. */ }
-        <div className="link-to" id={`#${service}`} />
+        <div className="link-to" id={`${service.serviceName}`.toLowerCase()} />
+        {/* <div className="link-to" id="cad" /> */ }
         <h3 className="serviceName">{service.serviceName}</h3>
         <p className="serviceDescription">{service.serviceDescription}</p>
         <p><Link to="/contact">Contact me for more information.</Link> </p>

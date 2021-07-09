@@ -8,10 +8,10 @@ import services from '../data/services';
 
 const sections = [
   'Design',
-  'CAD',
   'Project Management',
-  'Automation',
+  'CAD',
   'Quality Control',
+  'Automation',
 ];
 
 const Services = () => (
