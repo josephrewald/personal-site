@@ -16,7 +16,7 @@ const positions = [
     daterange: 'January 2017 - August 2018',
     points: [
       'Turn-Key Solutions for the storage and blending of chemicals for the polyurethane industry',
-      'International project management of projects valued up to 1,000,000',
+      'International project management of projects valued up to 1,000,000 EUR',
       'Execution of projects in countries including USA, Denmark, Bangladesh and Belgium',
       'Mechanical design and supervision of mechanical and controls engineers',
       'Procurement, construction supervision, commissioning, quality control',
@@ -28,7 +28,7 @@ const positions = [
     link: 'https://imcs-group.com/offices/germany-bremen/',
     daterange: 'March 2016 - December 2016',
     points: [
-      'Preparation of shipping expert witness reports for courts and Insurances',
+      'Preparation of maritime expert witness reports for courts and Insurances',
     ],
   },
   {
