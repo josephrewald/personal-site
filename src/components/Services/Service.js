@@ -17,7 +17,7 @@ const Service = ({ service }) => (
     <div className="split-right">
       <div className="centered">
         {/* <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} /> */}
-        <img src={`${process.env.PUBLIC_URL}/images/${service.serviceName}.jpg`} alt={service.serviceName} />
+        <img src={`${process.env.PUBLIC_URL}${service.image}`} alt={service.serviceName} />
       </div>
     </div>
   </div>
@@ -29,7 +29,6 @@ Service.propTypes = {
     link: PropTypes.string.isRequired,
     serviceDescription: PropTypes.string.isRequired,
   })),
-  // linkName: PropTypes.string.isRequired,
 };
 
 Service.defaultProps = {
