@@ -24,7 +24,7 @@ const Contact = () => (
         <p>Feel free to get in touch. You can email me at: </p>
         <p><a href="mailto:joseph.rewald@gmail.com">joseph.rewald@gmail.com</a></p>
       </div>
-      <p>Call me on: +61 481 213 203</p>
+      <p>Call me on: <a href="tel:+61 481 213 203">+61 481 213 203</a></p>
       <p>Or follow the familiar links below to connect. </p>
       <ContactIcons />
     </article>

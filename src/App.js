@@ -12,15 +12,8 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-// const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
-// const Stats = lazy(() => import('./pages/Stats'));
 const Services = lazy(() => import('./pages/Services'));
-
-// TODO: add these back in down the bottom or replace them with
-// portfolio, services, etc.
-// <Route path="/projects" component={Projects} />
-// <Route path="/stats" component={Stats} />
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
